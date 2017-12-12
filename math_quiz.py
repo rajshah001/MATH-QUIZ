@@ -146,7 +146,7 @@ while True:
     # This code appends the users completion data to a leaderboard.txt file.
     file = open("leaderboards.txt", "a")
     file.seek(2)
-    file.write("{} -- Difficulty: {}, Time:{}, Result: {}%\n".format(user_name.capitalize(), user_difficulty,
+    file.write("{} -- Difficulty: {}, Time: {}, Result: {}%\n".format(user_name.capitalize(), user_difficulty,
                                                                      str(difference), str(len(correct)*10)))
     file.close()
 
