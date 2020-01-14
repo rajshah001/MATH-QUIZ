@@ -164,6 +164,9 @@ while True:
         print("\nTHANK YOU FOR PLAYING THE MATH QUIZ.")
         break
     if try_again_input.lower() == "play":
+        # Redeclaring correct and incorrect lists as empty for correct evaluation of results when same user plays game again.
+        correct = []
+        incorrect = []
         continue
 
 
